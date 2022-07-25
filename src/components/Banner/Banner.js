@@ -1,7 +1,5 @@
-import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import headerImg from "../../assets/img/header-img.svg";
-import headerImg from "../../assets/img/—Pngtree—astronauts surf on a surfboard_5995307.png"
+import headerImg from "../../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
@@ -51,7 +49,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeInRight" : ""}>
-                  <img src={headerImg} alt="Header Img" />
+                  <img src={headerImg} loading="lazy" alt="Header Img" />
                 </div>}
             </TrackVisibility>
           </Col>

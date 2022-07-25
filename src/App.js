@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar/NavBar";
@@ -7,7 +7,6 @@ import { Skills } from "./components/Skills/Skills";
 import { ProjectCard } from './components/ProjectCard/ProjectCard';
 import { Contact } from "./components/Contacto/Contact";
 import { Footer } from "./components/Footer/Footer";
-import { Newsletter } from "../src/components/Newsletter"
 import { Projects } from "../src/components/Proyecto/Projects"
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
       <ProjectCard />
       <Projects />
       <Contact />
-      {/* <Newsletter /> */}
       <Footer />
     </div>
   );

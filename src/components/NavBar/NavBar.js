@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { AiFillLinkedin } from "react-icons/ai"
 import { BsGithub } from "react-icons/bs"
-// import { AiFillInstagram } from "react-icons/ai"
+
 import "./_navbar.scss"
 export const NavBar = () => {
 
@@ -31,7 +31,7 @@ export const NavBar = () => {
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="/">
-          {/* <img src={logo} alt="Logo" /> */}
+
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
@@ -44,9 +44,7 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className='social-icon'>
-              {/* <a href='#'><AiFillLinkedin /></a>
-              <a href='#'><BsGithub /></a> */}
-              {/* <a href='#'><AiFillInstagram /></a> */}
+
             </div>
             <button onClick={() => console.log('connect')}><span className="coolb">Contactemos!</span></button>
           </span>

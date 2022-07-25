@@ -54,7 +54,7 @@ export const Contact = () => {
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us" />
+                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} loading="lazy" src={contactImg} alt="Contact Us" />
               }
             </TrackVisibility>
           </Col>
@@ -138,28 +138,5 @@ export const Contact = () => {
     </section>
   )
 }
-{/* <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <h2>Contacto</h2>
-                  <form onSubmit={sendEmail}>
-                    <Row>
-                      <Col size={12} sm={6} className="px-1">
-                        <input type="text" name="to_name" placeholder="Nombre" />
-                      </Col>
-                      <Col size={12} sm={6} className="px-1">
-                        <input type="text" name="to_ape" placeholder="Apellido" />
-                      </Col>
-                      <Col size={12} sm={6} className="px-1">
-                        <input type="email" name="to_email" placeholder="Email" />
-                      </Col>
-                      <Col size={12} sm={6} className="px-1">
-                        <input type="tel" name="to_tel" placeholder="Telefono" />
-                      </Col>
-                      <Col size={12} className="px-1">
-                        <textarea rows="6" name="to_mess" placeholder="Mensaje" ></textarea>
-                        <button className="coolb" type="submit"><span>{buttonText}</span></button>
-                      </Col>
 
-                    </Row>
-                  </form>
-                </div> */}
 

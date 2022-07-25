@@ -6,7 +6,7 @@ const Experiencia = () => {
             <h2>Experiencia</h2>
             <p>Armada Argentina,Auxiliar Informatico.</p>
             <p>Junio 2021 , Actualidad.</p>
-            <h3>Auxiliar informatico pertenciente al Departamento en Sistemas de la Armada Argentina.He realizado tareas de soporte tecnico y consultas SQL.</h3>
+            <h3>Auxiliar informatico pertenciente al Departamento en Sistemas de la Direccion del Personal de la Armada Argentina.He realizado tareas de soporte tecnico y consultas SQL.</h3>
         </div>
     )
 }
