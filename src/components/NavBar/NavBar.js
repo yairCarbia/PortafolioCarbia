@@ -1,8 +1,5 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import { AiFillLinkedin } from "react-icons/ai"
-import { BsGithub } from "react-icons/bs"
-
 import "./_navbar.scss"
 export const NavBar = () => {
 

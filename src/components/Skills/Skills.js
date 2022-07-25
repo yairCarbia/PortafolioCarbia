@@ -3,14 +3,11 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../../assets/img/color-sharp.png"
 import "./_skills.scss"
-//react-icons
 import { AiFillHtml5 } from "react-icons/ai"
 import { FaCss3Alt } from "react-icons/fa"
 import { FaSass } from "react-icons/fa"
 import { DiJavascript1 } from "react-icons/di"
 import { FaReact } from "react-icons/fa"
-import { SiNextdotjs } from "react-icons/si"
-import { AiOutlineConsoleSql } from "react-icons/ai"
 import { SiMysql } from "react-icons/si"
 import { SiTailwindcss } from "react-icons/si"
 import { BsFillBootstrapFill } from "react-icons/bs"
@@ -75,14 +72,6 @@ export const Skills = () => {
                 <div className="item">
                   <FaReact loading="lazy" className="react__icons" />
                   <h5>React js</h5>
-                </div>
-                <div className="item">
-                  <SiNextdotjs className="react__icons" />
-                  <h5>Next.js</h5>
-                </div>
-                <div className="item">
-                  <AiOutlineConsoleSql loading="lazy" className="react__icons" />
-                  <h5>Sql</h5>
                 </div>
                 <div className="item">
                   <SiMysql loading="lazy" className="react__icons" />

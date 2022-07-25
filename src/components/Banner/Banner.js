@@ -5,6 +5,7 @@ import 'animate.css';
 import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
 import TrackVisibility from 'react-on-screen';
 import "./_banner.scss"
+import carbia from "./CarbiaYairAgustinCv.pdf"
 
 export const Banner = () => {
 
@@ -39,7 +40,7 @@ export const Banner = () => {
                 </h1>
 
                 <p>Soy estudiante de ingenieria en informatica, tengo 21 años.Me encanta programar y desde chico tuve una pronta afinidad hacia la informatica. </p>
-                <button onClick={() => console.log('connect')}>Contactemos! <ArrowRightCircle size={25} /></button>
+                <a href={carbia} target="_blank"><span>Descargar Cv! <ArrowRightCircle size={25} /></span> </a>
               </div>
 
 
