@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/PortafolioCarbia/static/css/main.08e2878e.css",
-    "main.js": "/PortafolioCarbia/static/js/main.4fccb5b8.js",
+    "main.css": "/PortafolioCarbia/static/css/main.e01bbefc.css",
+    "main.js": "/PortafolioCarbia/static/js/main.5127b89f.js",
     "static/js/787.fb771931.chunk.js": "/PortafolioCarbia/static/js/787.fb771931.chunk.js",
+    "static/media/CarbiaYairAgustinCv.pdf": "/PortafolioCarbia/static/media/CarbiaYairAgustinCv.4887f35abeb7ec6c7b09.pdf",
     "static/media/header-img.svg": "/PortafolioCarbia/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/5509862.jpg": "/PortafolioCarbia/static/media/5509862.52b31dc86347562703af.jpg",
     "static/media/color-sharp.png": "/PortafolioCarbia/static/media/color-sharp.b6205fc66d26479718e2.png",
@@ -19,12 +20,12 @@
     "static/media/revicons.woff": "/PortafolioCarbia/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/undraw_mail_sent_re_0ofv.svg": "/PortafolioCarbia/static/media/undraw_mail_sent_re_0ofv.56f5fdaf1843064d19683fb89838757c.svg",
     "index.html": "/PortafolioCarbia/index.html",
-    "main.08e2878e.css.map": "/PortafolioCarbia/static/css/main.08e2878e.css.map",
-    "main.4fccb5b8.js.map": "/PortafolioCarbia/static/js/main.4fccb5b8.js.map",
+    "main.e01bbefc.css.map": "/PortafolioCarbia/static/css/main.e01bbefc.css.map",
+    "main.5127b89f.js.map": "/PortafolioCarbia/static/js/main.5127b89f.js.map",
     "787.fb771931.chunk.js.map": "/PortafolioCarbia/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08e2878e.css",
-    "static/js/main.4fccb5b8.js"
+    "static/css/main.e01bbefc.css",
+    "static/js/main.5127b89f.js"
   ]
 }
